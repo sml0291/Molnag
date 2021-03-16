@@ -1,0 +1,346 @@
+:root {
+    --dark: #EAA3BE;
+    --light: #FECBDE;
+}
+
+
+.reward-chart {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px lightgray;
+ 
+}
+.title {
+    margin-top: 50px;
+    width: 30em;
+}
+
+body {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    background-image: url("images/그룹\ 1.png");
+   
+}
+
+.task {
+    background-color: white;
+    width: 60em;
+    height: 30em;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+    
+    
+}
+
+.몰랑-task {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    left: -2em;
+    top: -4em;
+}
+
+.today-task-title {
+    text-decoration: underline;
+
+}
+
+.today-task {
+    color: var(--dark);
+    font-size: 3em;
+    padding: 1px 0px;
+    text-shadow: 2px 2px lightgray;
+}
+
+.task-checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.task-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.label-table {
+    text-align: left;
+    display: table-cell;
+}
+
+.button {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    color: var(--light);
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+.loading-img {
+    width: 30em;
+    height: 10em;
+    margin: 50px 0px;
+}
+
+.collection-background {
+    background-color: white;
+    width: 60em;
+    height: 30em;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+
+}
+
+.collection {
+    text-decoration: underline;
+    text-align: left;
+    color: var(--dark);
+    font-size: 3em;
+    padding: 25px;
+    text-shadow: 2px 2px lightgray;
+
+}
+
+.image-table {
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.first-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 50px;
+    top: 120px;
+}
+
+.second-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 210px;
+    top: 120px;
+}
+
+.third-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 390px;
+    top: 120px;
+}
+
+.fourth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 580px;
+    top: 120px;
+}
+
+.fifth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 760px;
+    top: 120px;
+}
+
+.sixth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 50px;
+    top: 250px;
+}
+
+.seventh-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 210px;
+    top: 250px;
+}
+
+.eighth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 390px;
+    top: 250px;
+}
+
+.ninth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 580px;
+    top: 250px;
+}
+
+.tenth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 760px;
+    top: 250px;
+}
+
+.eleventh-img {
+    position: absolute;
+    width: 12em;
+    height: 6em;
+    left: 60px;
+    top: 350px;
+}
+
+ .twelveth-img {
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    left: 370px;
+    top: 350px;
+}
+
+.thirteenth-img {
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    left: 570px;
+    top: 350px;
+}
+
+.fourteenth-img {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    left: 760px;
+    top: 350px;
+}  
+
+.loading-img2 {
+    width: 30em;
+    height: 10em;
+    margin: 50px 0px;
+}
+
+.credit {
+    background-color: white;
+    width: 60em;
+    height: 30em;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.p-credit {
+    text-decoration: underline;
+    color: var(--dark);
+    text-align: left;
+    font-size: 3em;
+    padding: 25px;
+    text-shadow: 2px 2px lightgray;
+
+}
+
+.team {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 100px;
+    left: 30px;
+    position: absolute;
+}
+
+.front-end {
+    color: var(--light);
+    text-align: left;
+    font-size: 30px;
+    top: 170px;
+    left: 30px;
+    position: absolute;
+}
+
+.sung-name {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 170px;
+    left: 360px;
+    position: absolute;
+}
+
+.designer-back-end {
+    color: var(--light);
+    text-align: left;
+    font-size: 30px;
+    top: 210px;
+    left: 30px;
+    position: absolute;
+}
+
+.gloria-name {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 210px;
+    left: 520px;
+    position: absolute;
+}
+
+.contribution {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 240px;
+    left: 30px;
+    position: absolute;
+}
+
+.contribution-background {
+    color: var(--light);
+    text-align: left;
+    font-size: 30px;
+    top: 310px;
+    left: 30px;
+    position: absolute;
+}
+
+.freepik {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 310px;
+    left: 230px;
+    position: absolute;
+}
+
+.contribution-molang {
+    color: var(--light);
+    text-align: left;
+    font-size: 30px;
+    top: 350px;
+    left: 30px;
+    position: absolute;
+}
+
+.contribution-name {
+    color: var(--dark);
+    text-align: left;
+    font-size: 30px;
+    top: 350px;
+    left: 170px;
+    position: absolute;
+}
+
+.last-img{
+    position: absolute;
+    width: 12em;
+    right: 10px;
+    bottom: 10px;
+}
